@@ -1,0 +1,102 @@
+<svg width="1000" height="320" viewBox="0 0 1000 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset="0.55" stop-color="#120b2e"/>
+      <stop offset="1" stop-color="#1b0a2a"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.6 0; 0.6 0; -0.6 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="40 40" dur="4s" repeatCount="indefinite"/>
+    </pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="45"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="typeclip">
+      <rect x="0" y="205" height="44" width="0">
+        <animate attributeName="width" values="0;0;640;640;0" keyTimes="0;0.05;0.45;0.92;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'SFMono-Regular', Consolas, 'Courier New', monospace; }
+    .sans { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .float1 { animation: float 7s ease-in-out infinite; }
+    .float2 { animation: float 9s ease-in-out infinite reverse; }
+    .float3 { animation: float 6s ease-in-out infinite 1s; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-16px); } }
+    .blink { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <rect width="1000" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1000" height="320" rx="18" fill="url(#grid)"/>
+
+  <!-- glowing orbs -->
+  <circle r="110" fill="#22d3ee" opacity="0.30" filter="url(#blur)">
+    <animate attributeName="cx" values="120;300;120" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="60;240;60" dur="13s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="130" fill="#a78bfa" opacity="0.30" filter="url(#blur)">
+    <animate attributeName="cx" values="520;720;520" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="260;70;260" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="110" fill="#f472b6" opacity="0.28" filter="url(#blur)">
+    <animate attributeName="cx" values="900;720;900" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="80;250;80" dur="15s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- floating code symbols -->
+  <g class="mono" fill="#ffffff" fill-opacity="0.16" font-size="34" font-weight="700">
+    <text class="float1" x="70" y="90">&lt;/&gt;</text>
+    <text class="float2" x="880" y="70">{ }</text>
+    <text class="float3" x="820" y="280">=&gt;</text>
+    <text class="float1" x="110" y="285">;</text>
+    <text class="float2" x="610" y="55">#</text>
+    <text class="float3" x="440" y="295">[ ]</text>
+  </g>
+
+  <!-- small label -->
+  <text class="mono" x="500" y="88" text-anchor="middle" font-size="15" fill="#22d3ee" letter-spacing="6" opacity="0.9">
+    &lt; HELLO WORLD /&gt;
+  </text>
+
+  <!-- name -->
+  <text class="sans" x="500" y="160" text-anchor="middle" font-size="68" font-weight="800" fill="url(#txt)" filter="url(#glow)">
+    YOUR NAME
+  </text>
+
+  <!-- animated divider -->
+  <rect x="300" y="182" width="400" height="3" rx="1.5" fill="url(#line)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- typed subtitle -->
+  <g clip-path="url(#typeclip)">
+    <text class="mono" x="500" y="235" text-anchor="middle" font-size="22" fill="#e5e7eb" textLength="620" lengthAdjust="spacingAndGlyphs">
+      Full-Stack Developer · Open-Source Nerd
+    </text>
+  </g>
+  <rect class="blink" x="822" y="212" width="3" height="30" fill="#a78bfa"/>
+
+  <!-- bottom scanning line -->
+  <rect x="0" y="300" width="1000" height="2" fill="url(#line)" opacity="0.8">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

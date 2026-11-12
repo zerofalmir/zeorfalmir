@@ -1,0 +1,88 @@
+<svg width="820" height="470" viewBox="0 0 820 470" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0a0d14"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#a78bfa" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'SFMono-Regular', Consolas, 'Courier New', monospace; font-size: 17px; }
+    .p { fill: #a78bfa; }
+    .c { fill: #e5e7eb; }
+    .g { fill: #4ade80; }
+    .y { fill: #fbbf24; }
+    .k { fill: #22d3ee; }
+    .m { fill: #f472b6; }
+    .dim { fill: #6b7280; }
+    .blink { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <!-- window -->
+  <rect x="10" y="10" width="800" height="450" rx="14" fill="url(#win)" stroke="url(#edge)" stroke-width="2" filter="url(#shadow)"/>
+  <path d="M10 24 Q10 10 24 10 H796 Q810 10 810 24 V52 H10 Z" fill="#161b22"/>
+  <circle cx="38" cy="31" r="7" fill="#ff5f56"/>
+  <circle cx="62" cy="31" r="7" fill="#ffbd2e"/>
+  <circle cx="86" cy="31" r="7" fill="#27c93f"/>
+  <text class="mono dim" x="410" y="37" text-anchor="middle" font-size="14">dev@portfolio: ~</text>
+
+  <g class="mono">
+    <!-- 1 -->
+    <text x="34" y="92"><tspan class="g">dev@portfolio</tspan><tspan class="c">:</tspan><tspan class="k">~</tspan><tspan class="c">$ </tspan><tspan class="c">whoami</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.03;0.035;0.94;1" dur="22s" repeatCount="indefinite"/>
+    </text>
+    <!-- 2 -->
+    <text x="34" y="120" class="p">YOUR NAME · full-stack developer · open-source nerd
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.08;0.085;0.94;1" dur="22s" repeatCount="indefinite"/>
+    </text>
+    <!-- 3 -->
+    <text x="34" y="164"><tspan class="g">dev@portfolio</tspan><tspan class="c">:</tspan><tspan class="k">~</tspan><tspan class="c">$ cat stack.json</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.16;0.165;0.94;1" dur="22s" repeatCount="indefinite"/>
+    </text>
+    <!-- 4 -->
+    <text x="34" y="192"><tspan class="c">{ </tspan><tspan class="k">"languages"</tspan><tspan class="c">: [</tspan><tspan class="y">"TypeScript"</tspan><tspan class="c">, </tspan><tspan class="y">"Python"</tspan><tspan class="c">, </tspan><tspan class="y">"Go"</tspan><tspan class="c">],</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.22;0.225;0.94;1" dur="22s" repeatCount="indefinite"/>
+    </text>
+    <!-- 5 -->
+    <text x="34" y="216"><tspan class="c">  </tspan><tspan class="k">"frontend"</tspan><tspan class="c">: [</tspan><tspan class="y">"React"</tspan><tspan class="c">, </tspan><tspan class="y">"Next.js"</tspan><tspan class="c">, </tspan><tspan class="y">"Tailwind"</tspan><tspan class="c">],</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.26;0.265;0.94;1" dur="22s" repeatCount="indefinite"/>
+    </text>
+    <!-- 6 -->
+    <text x="34" y="240"><tspan class="c">  </tspan><tspan class="k">"backend"</tspan><tspan class="c">:  [</tspan><tspan class="y">"Node.js"</tspan><tspan class="c">, </tspan><tspan class="y">"PostgreSQL"</tspan><tspan class="c">, </tspan><tspan class="y">"Docker"</tspan><tspan class="c">] }</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.30;0.305;0.94;1" dur="22s" repeatCount="indefinite"/>
+    </text>
+    <!-- 7 -->
+    <text x="34" y="284"><tspan class="g">dev@portfolio</tspan><tspan class="c">:</tspan><tspan class="k">~</tspan><tspan class="c">$ git log --oneline -3</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.40;0.405;0.94;1" dur="22s" repeatCount="indefinite"/>
+    </text>
+    <!-- 8 -->
+    <text x="34" y="312"><tspan class="y">a1b2c3d</tspan><tspan class="c"> feat: ship it on a Friday</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.47;0.475;0.94;1" dur="22s" repeatCount="indefinite"/>
+    </text>
+    <!-- 9 -->
+    <text x="34" y="336"><tspan class="y">e4f5a6b</tspan><tspan class="c"> fix: it worked on my machine</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.51;0.515;0.94;1" dur="22s" repeatCount="indefinite"/>
+    </text>
+    <!-- 10 -->
+    <text x="34" y="360"><tspan class="y">c7d8e9f</tspan><tspan class="c"> refactor: delete 2000 lines, add 3</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.55;0.555;0.94;1" dur="22s" repeatCount="indefinite"/>
+    </text>
+    <!-- 11 -->
+    <text x="34" y="404"><tspan class="g">dev@portfolio</tspan><tspan class="c">:</tspan><tspan class="k">~</tspan><tspan class="c">$ echo $STATUS</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.65;0.655;0.94;1" dur="22s" repeatCount="indefinite"/>
+    </text>
+    <!-- 12 -->
+    <text x="34" y="432"><tspan class="m">&gt; available for exciting projects </tspan><tspan class="m blink">█</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.72;0.725;0.94;1" dur="22s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
