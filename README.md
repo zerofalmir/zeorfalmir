@@ -1,19 +1,16 @@
 <div align="center">
 
-<!-- تایپینگ اصلی -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=36&duration=2200&pause=600&color=00F5FF&center=true&vCenter=true&width=800&lines=سلام%2C+من+[اسم+تو]+هستم;Full+Stack+%26+AI+Engineer;ساختن+چیزای+خفن;Claude+%2B+Cursor+Addict" alt="Typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=34&duration=2300&pause=700&color=00F5FF&center=true&vCenter=true&width=780&lines=سلام%2C+من+[اسم+تو]+هستم;Full+Stack+%26+AI+Developer;ساختن+چیزای+خفن+با+کد;Claude+%2B+Cursor+Lover" alt="Typing SVG" />
 
 <br><br>
 
-<!-- گیف اصلی -->
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzJ5b2J5eXh4eXh4eXh4eXh4eXh4eXh4eXh4eXh4eXh4eXh4eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7btPCcdNniyf0ArS/giphy.gif" width="500"/>
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="460" alt="coding"/>
 
 <br><br>
 
-<!-- بج‌های متحرک‌وار -->
 <img src="https://img.shields.io/badge/Status-Building%20Cool%20Shit-00F5FF?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/AI-Claude%20%2B%20Cursor-black?style=for-the-badge&logo=anthropic&logoColor=00F5FF"/>
-<img src="https://img.shields.io/badge/Vibe-Coding-ff2d55?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI-Claude%20Sonnet%20%2B%20Cursor-black?style=for-the-badge&logo=anthropic&logoColor=00F5FF"/>
+<img src="https://img.shields.io/badge/Open%20Source-Heart-ff2d55?style=for-the-badge"/>
 
 </div>
 
@@ -21,8 +18,10 @@
 
 ### 👨‍💻 درباره من
 
-من یه برنامه‌نویسم که عاشق ساختن چیزاییه که بقیه با دیدنشون بگن «این چطور کار می‌کنه؟».  
-با Claude و Cursor مثل یه تیم کامل کد می‌زنم.
+- 🔭 الان دارم روی پروژه‌های AI-powered کار می‌کنم
+- 🌱 دارم Rust و سیستم‌های توزیع‌شده یاد می‌گیرم
+- 💬 بیا در مورد AI coding tools و clean code حرف بزنیم
+- ⚡ عاشق حذف کردن کدهای اضافی‌ام
 
 ---
 
@@ -37,8 +36,8 @@
 ### 📊 آمار
 
 <div align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F5FF&icon_color=00F5FF&text_color=FFFFFF&count_private=true"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F5FF&text_color=FFFFFF"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F5FF&icon_color=00F5FF&text_color=FFFFFF&count_private=true"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F5FF&text_color=FFFFFF"/>
 </div>
 
 <br>
@@ -49,9 +48,8 @@
 
 ---
 
-### 🐍 مار مشارکت‌ها (Snake Animation)
+### 🐍 Snake
 
-<!-- بعد از فعال کردن اکشن، این خط رو از کامنت دربیار -->
 <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg" alt="Snake"/>
 
 ---
@@ -60,17 +58,17 @@
 
 | پروژه | توضیح | تکنولوژی |
 |:-----:|:-----:|:--------:|
-| **[Project 1](link)** | چیز خفن AI | Next.js + Claude |
-| **[Project 2](link)** | ابزار هوشمند | TypeScript |
-| **[Project 3](link)** | در حال توسعه | Python + Agents |
+| **[Project 1](link)** | توضیح کوتاه و خفن | Next.js + AI |
+| **[Project 2](link)** | توضیح کوتاه | TypeScript |
+| **[Project 3](link)** | توضیح کوتاه | Python |
 
 ---
 
-### 📫 ارتباط با من
+### 📫 ارتباط
 
 <div align="center">
 
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOUR_HANDLE)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOUR)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
 
